@@ -1,0 +1,50 @@
+html, body, #map-canvas {margin: 0; padding: 0;}
+html, body {height: 100%;}
+body, #legend {background-color: #eee; font-family: monospace;}
+p:last-child {margin-bottom: 0;}
+
+header, footer {background-color: #eee;}
+header { border-bottom: 1px solid #bbb; height: 32px; padding: 4px 8px 6px;}
+header a { color: #000; text-decoration: none;}
+header img.logo {height: 32px; vertical-align: top;}
+header .title {
+    display: inline-block;
+    font-family: 'Allerta Stencil', 'Times New Roman', serif;
+    font-size: 23px;
+    margin: 2px 16px 0 8px;
+}
+header h1 {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+main { margin: 20px; }
+
+[data-reactroot] {height: 100%}
+
+#map-canvas {height: calc(100% - 74px);}
+/*#map-canvas {height: 700px;}*/
+.info-window {max-width: 300px;}
+.info-window h3 {margin-top: 5px; text-transform: capitalize;}
+
+#legend {border: 1px solid #bbb; margin: 10px; padding: 10px;}
+#legend h2 {margin-top: 0;}
+
+footer {border-top: 1px solid #bbb; bottom: 0;  font-size: 12px; font-family: monospace; height: 20px; padding: 5px 10px; position: fixed; text-align: right; width: calc(100% - 20px);}
+footer .left {float: left;}
+footer .text-link {vertical-align: -2px;}
+
+.fb_iframe_widget { vertical-align: 3px; }
+
+#overlay {background-color: rgba(0,0,0,.7); display: none; height: 100%; left:0; margin: 0; padding: 0; position:fixed; top:0; width:100%; z-index:999;}
+.modal {background-color: #eee; border: 1px solid #bbb; display: none; left: 50%; padding: 16px; position: absolute; top: 50px; z-index:1000;}
+.modal h4 {margin-top:5px;}
+
+#root {height: 100%;}
+
+#details-window {margin: 0 0 50px -400px; width: 800px;}
+#disclaimer {margin: 0 0 50px -200px; width: 400px; }
