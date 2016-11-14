@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './toxicmap.css';
+import App from './components/App';
+import './css/toxicmap.css';
 
 ReactDOM.render(
   <App />,
