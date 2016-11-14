@@ -23,14 +23,12 @@ class Legend extends Component {
     return (
         <div id="legend">
             <h2>LEGEND</h2>
-            {legendItems.map(function(item) {
-                return (
-                    <div>
-                        <img src={"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + item.color} />
-                        {item.label}
-                    </div>
-                );
-            })}
+            {legendItems.map(item => (
+                <div>
+                    <img src={"http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + item.color} />
+                    {item.label}
+                </div>
+            ))}
 
         </div>
     );
