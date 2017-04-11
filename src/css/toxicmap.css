@@ -27,11 +27,22 @@ main { margin: 20px; }
 [data-reactroot] {height: 100%}
 
 #map-canvas {height: calc(100% - 74px);}
-/*#map-canvas {height: 700px;}*/
+
 .info-window {max-width: 300px;}
 .info-window h3 {margin-top: 5px; text-transform: capitalize;}
 
-#legend {border: 1px solid #bbb; margin: 10px; padding: 10px;}
+#legend
+{
+    position: relative;
+    bottom: 320px;
+
+    float: right;
+
+    width: 100px;margin: 10px; padding: 10px;
+
+    border: 1px solid #bbb;
+}
+
 #legend h2 {margin-top: 0;}
 
 footer {border-top: 1px solid #bbb; bottom: 0;  font-size: 12px; font-family: monospace; height: 20px; padding: 5px 10px; position: fixed; text-align: right; width: calc(100% - 20px);}
